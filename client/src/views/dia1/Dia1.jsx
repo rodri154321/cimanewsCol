@@ -13,6 +13,7 @@ const Dia1 = () => {
             <div className={style.top}>
                 <img src={Titulo} alt="Titulo" />
             </div>
+            <h1>BIENVENIDOS</h1>
             <img className={style.imgCastillo} src={castillo} alt="fondo" />
 
             <section className={style.sectionVid}>
