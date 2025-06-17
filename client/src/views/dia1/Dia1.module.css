@@ -1,0 +1,259 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-image: url('../../assets/svg/castillo.svg'); */
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+.imgCastillo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+
+.top {
+    width: 100%;
+    padding: 2%;
+    background-color: #222952;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .top {
+        padding: 5%;
+    }
+}
+
+/* ________________________________________________________section video_____________________________________________________________________ */
+
+.sectionVid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
+
+
+/* ________________________________________________________section etnia_____________________________________________________________________ */
+
+
+.sectionEtnia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+    margin-top: 10%;
+}
+
+.divImgEtnias{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgEtnias{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tituloEtnia {
+    font-size: 3rem;
+    color: #CB1428;
+    margin-bottom: 2%;
+}
+
+.cuerpoEtnia {
+    width: 90%;
+}
+
+.tituloEtnia {
+    font-size: 2rem;
+}
+
+.imgMarco {
+    width: 100%;
+    height: 100%;
+}
+
+.imgMarcoAbajo {
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+/* ________________________________________________________section 2_____________________________________________________________________ */
+
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    position: relative;
+    /* background-image: url("../../assets/svg/Group-5.svg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.marco {
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.spoiler {
+    color: #E98E13;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 4rem;
+    z-index: 2;
+    margin-bottom: 2%;
+}
+
+.spoilerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.spoilerText {
+    /* background-image: url("../../assets/webp/texturaAzul.webp"); */
+    /* background-color: #F8F0E4; */
+    /* color: white; */
+    padding: 0.2em 0.5em;
+    /* border: #222952 solid 2px;
+    border-radius: 20px; */
+}
+
+
+.bordeContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -15%;
+    margin-top: -10%;
+}
+
+.esqIzquierda {
+    rotate: 90deg;
+    margin: 0 0 0 1em;
+    width: 3em;
+    color: #222952;
+}
+
+.esqDerecha {
+    rotate: 180deg;
+    margin: 0 1em 0 0;
+    width: 3em;
+    color: #222952;
+}
+
+.esqIzquierdaAbajo {
+    rotate: 360deg;
+    margin: 0 0 0 1em;
+    width: 3em;
+    color: #222952;
+}
+
+.esqDerechaAbajo {
+    rotate: 270deg;
+    margin: 0 0 0 1em;
+    width: 3em;
+    color: #222952;
+}
+
+
+/* ________________________________________________________section explayar_____________________________________________________________________ */
+
+
+.explayar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+    margin-top: 10%;
+    background-image: url("../../assets/webp/Naranja.webp");
+    background-color: #E98E13;
+    color: white;
+
+}
+
+.textoOracion {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
+
+.textoOracion2 {
+    width: 80%;
+}
+
+
+/* ________________________________________________________section explayar_____________________________________________________________________ */
+
+
+.sectionExtra {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+    margin-top: 10%;
+}
+
+.textoExtra{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
