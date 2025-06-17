@@ -108,16 +108,19 @@ const Dia1 = () => {
                 </div>
                 <div className={style.textoExtra}>
                     <p>
-                        “Génesis” es la palabra griega para “origen” o “comienzo”. Los hebreos al Génesis lo llaman “Bereshit”, que es la primera palabra del libro. Ellos también nombran a los libros del Éxodo, Levítico, Números, Deuteronomio y Lamentaciones, de acuerdo a la primera palabra de cada uno de sus libros.
-                        Génesis proporciona una introducción apropiada a la Biblia. Es un libro de comienzos: el universo físico, las plantas, los animales y la vida humana; además de muchas ideas claves de la Palabra de Dios.
-                        Génesis traza el inicio de la obra redentora de Dios con la humanidad. Después que Adán y Eva pecaron, la redención llegó a ser absolutamente necesaria. En Génesis 3:15, el lector se da cuenta que el Redentor vendría de “la simiente de la mujer”. El enfoque se reduce a la familia de Sem (Gn 9:26,27), y luego a la familia de Abraham (Gn 12:3). La línea del Mesías continuaría por la línea de Isaac, y después por la de Jacob. El enfoque en Génesis se estrecha aún más a la familia de Judá.
-                        De los ocho pactos más importantes en las Escrituras, cuatro se encuentran en Génesis: el Edénico, el Adámico, el de Noé y el de Abraham. En cada uno de esos casos, Dios prueba a sus hijos respecto a algún aspecto de su voluntad; cada vez, el hombre falla la prueba.
-                        Desde los tiempos bíblicos, los primeros cinco libros de la Biblia se han tratado como un todo y son llamados la “ley” o el “Pentateuco” (del que Moisés es el autor). Génesis es la introducción lógica y necesaria al Pentateuco. Este libro se compone de once documentos: un relato introductorio de los días de la creación, seguido por diez secciones, que comienzan con: “Estas son las generaciones de…”. El material de Génesis se divide en dos partes naturales: los primeros once capítulos tratan cuatro acontecimientos claves: la creación, la caída, el diluvio y la torre de Babel con la resultante dispersión de los habitantes a través del mundo.
+                        <strong> “Génesis”</strong> es la palabra griega para <strong className={style.remarcado}> “origen” </strong> o <strong className={style.remarcado}> comienzo”.</strong> Los hebreos al Génesis lo llaman “Bereshit”, que es la primera palabra del libro. Ellos también nombran a los libros del Éxodo, Levítico, Números, Deuteronomio y Lamentaciones, de acuerdo a la primera palabra de cada uno de sus libros.
+                        Génesis proporciona una introducción apropiada a la Biblia.<strong className={style.remarcado}> Es un libro de comienzos:</strong> el universo físico, las plantas, los animales y la vida humana; además de muchas ideas claves de la Palabra de Dios.
+                        Génesis traza el inicio de la obra redentora de Dios con la humanidad. Después que Adán y Eva pecaron, la redención llegó a ser absolutamente necesaria. En Génesis 3:15, el lector se da cuenta que el Redentor vendría de “la simiente de la mujer”. El enfoque se reduce a la familia de Sem (Gn 9:26,27), y luego a la familia de Abraham (Gn 12:3). <strong className={style.remarcado}>La línea del Mesías continuaría por la línea de Isaac,</strong> y después por la de Jacob. El enfoque en Génesis se estrecha aún más a la familia de Judá.
+                        De los ocho pactos más importantes en las Escrituras, cuatro se encuentran en Génesis: el Edénico, el Adámico, el de Noé y el de Abraham. En cada uno de esos casos, Dios prueba a sus hijos respecto a algún aspecto de su voluntad; <strong className={style.remarcado}>cada vez, el hombre falla la prueba.</strong>
+                        Desde los tiempos bíblicos, los primeros cinco libros de la Biblia se han tratado como un todo y son llamados la “ley” o el <strong className={style.remarcado}>“Pentateuco”</strong> (del que Moisés es el autor). Génesis es la introducción lógica y necesaria al Pentateuco. Este libro se compone de once documentos: un relato introductorio de los días de la creación, seguido por diez secciones, que comienzan con: “Estas son las generaciones de…”. El material de Génesis se divide en dos partes naturales: los primeros once capítulos tratan cuatro acontecimientos claves: la creación, la caída, el diluvio y la torre de Babel con la resultante dispersión de los habitantes a través del mundo.
                     </p>
                 </div>
 
             </section>
 
+            {/* <secction className={style.sectionFooter}>
+                <h2 className={style.textoFuter}>Enterate de esto y mucho mas, en nuestro canal de difusión</h2>
+            </secction> */}
         </div>
     );
 };
