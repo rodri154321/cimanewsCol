@@ -12,8 +12,18 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Dia1/>} />
-        <Route path="/dia2" element={<Dia2/>}/>
+        <Route path="/" element={<Dia2 />} />
+        <Route path="/dia2" element={<Dia1 />} />
+        <Route
+          path='/cumplededavi'
+          element={
+            <img
+              src="https://i.postimg.cc/Kzrr4hHz/dav-Cumple.png"
+              alt="Feliz Cumple Davi"
+              style={{ maxWidth: '100%', height: 'auto' }}
+            />
+          }
+        />
       </Routes>
     </div>
   )

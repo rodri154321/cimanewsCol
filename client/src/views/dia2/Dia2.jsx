@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Dia2.module.css';
+import Titulo from '../../assets/webp/Titulo.webp';
 
 import ReactPlayer from 'react-player'
 
@@ -7,8 +8,7 @@ const Dia2 = () => {
     return (
         <div className={style.container}>
             <section className={style.portada}>
-                <h1 className={style.titulo}>DÍA 2</h1>
-                <p className={style.subtitulo}>¡Bienvenidos al segundo día de nuestro viaje!</p>
+                <img src={Titulo} alt="Titulo" />
             </section>
             <section className={style.spoilerSection}>
 
@@ -113,7 +113,7 @@ const Dia2 = () => {
             <section className={style.piza}>
 
                 <img className={style.Harina} src="https://i.postimg.cc/qvvr7Ysw/nose.png" alt="" />
-            
+
 
             </section>
 
@@ -145,6 +145,15 @@ const Dia2 = () => {
                         This story challenges us with a current truth: we too are at risk of trying to build our own kingdom, apart from God. Yet God calls us to stay centered on His Kingdom, even when that means doing things that don’t always make logical sense to us.
                     </p>
                 </div>
+            </section>
+
+            <section className={style.final}>
+                <p>¡Felicitaciones por llegar hasta el final del CIMA News!
+
+                    Como recompensa por tu atención, tenemos una sorpresa para ti: si eres uno de los primeros 3 en acercarte al stand de Movida y mostrar que leíste hasta aquí… <br />
+                    ¡Te llevarás un regalito! <br />
+                    No digas nada, es un secreto entre nosotros. <br />
+                    ¡Corre antes de que otro se te adelante!</p>
             </section>
 
         </div>
