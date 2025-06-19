@@ -64,7 +64,7 @@ const Dia3 = () => {
 
             <section>
                 <ReactPlayer
-                    height={'700px'}
+                    height={'250px'}
                     controls={true}
                     url='https://vimeo.com/1094657389?share=copy#t=0' />
             </section>
@@ -82,6 +82,13 @@ const Dia3 = () => {
                 Now the question is: <strong>what part will you play in reaching those who have never heard?</strong>
             </section>
 
+            <section>
+                <ReactPlayer
+                    height={'700px'}
+                    controls={true}
+                    url='https://vimeo.com/1094627531' />
+            </section>
+            
 
             <section className={style.sectionImg}>
                 <h1 className={style.tituloMapa} > Como leíamos ayer, la persecusión es grande. No podemos permanecer indiferentes.</h1>
