@@ -88,7 +88,7 @@ const Dia3 = () => {
                     controls={true}
                     url='https://vimeo.com/1094627531' />
             </section>
-            
+
 
             <section className={style.sectionImg}>
                 <h1 className={style.tituloMapa} > Como leíamos ayer, la persecusión es grande. No podemos permanecer indiferentes.</h1>
@@ -127,6 +127,12 @@ const Dia3 = () => {
                 </p>
             </section>
 
+            <section>
+                <ReactPlayer
+                    height={'250px'}
+                    controls={true}
+                    url='https://vimeo.com/1094715303?share=copy#t=0' />
+            </section>
 
             <section className={style.sectionExperimenta}>
                 <h1 className={style.tituloExperimenta}>
