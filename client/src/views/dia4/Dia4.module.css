@@ -1,0 +1,108 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.portada {
+    background-image: url('https://i.postimg.cc/Y08BR2tZ/20250619-174819.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    color: white;
+
+}
+
+.articulo {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
+
+
+.articuloH1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+
+.resaltarNaranja {
+    background-color: #E98E13;
+    color: white;
+    padding: 1%;
+    border-radius: 7px;
+}
+
+.p {
+    text-align: left;
+
+}
+
+.OpeCimSection {
+    background-color: #F8F0E4;
+}
+
+.OpeCim {
+    color: #669BBB;
+    font-size: 1.5rem;
+}
+
+.ofrendaSection {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+
+}
+
+.ofrendaParrafo {
+    width: 90%;
+    text-align: left;
+}
+
+.ofrenda {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.refugiadosSection {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
+
+.refugiadosH1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.imgRefugiados {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
